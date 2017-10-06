@@ -11,7 +11,7 @@ public class Kata2 {
         //  Clave    Valor.   Implementado como HashMap
         Map<Integer, Integer> histogram = new HashMap<>();
 
-      for (int i = 0; i < data.length; i++) {
+        for (int i = 0; i < data.length; i++) {
             if (histogram.containsKey(data[i])) {
                 histogram.put(data[i],1);
             } else {
